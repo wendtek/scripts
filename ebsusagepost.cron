@@ -1,0 +1,1 @@
+45 11 * * * root df -h | grep ebs | awk '{print $5}' | xargs echo "EBS Disk Usage:" | xargs /ebs/scripts/twitpost.sh > /dev/null 2>&1

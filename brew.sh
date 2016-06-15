@@ -10,7 +10,7 @@ brew install watch wget irssi rbenv ruby-build gpg-agent mutt tmux pwgen elinks 
 
 brew install kore go exercism
 
-brew cask install virtualbox google-chrome vagrant chefdk iterm2 sublime-text
+brew cask install virtualbox google-chrome vagrant chefdk iterm2 macdown
 
 brew install docker docker-machine docker-compose
 

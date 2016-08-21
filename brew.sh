@@ -6,13 +6,12 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew install caskroom/cask/brew-cask
 
-brew install watch wget irssi rbenv ruby-build gpg-agent mutt tmux pwgen elinks hub macvim pass ag rust nodejs elixir nmap duck htop hub libxml2 fortune
-
-brew install kore go exercism
+brew install watch wget irssi rbenv ruby-build gpg-agent mutt tmux pwgen \
+  elinks hub macvim pass ag rust nodejs elixir nmap duck htop hub libxml2 fortune \
+  kore go exercism httpie \
+  docker docker-machine docker-compose
 
 brew cask install virtualbox google-chrome vagrant chefdk iterm2 macdown
-
-brew install docker docker-machine docker-compose
 
 brew tap homebrew/binary && brew install packer
 

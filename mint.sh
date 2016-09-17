@@ -3,7 +3,7 @@ apt-get update && apt-get -y upgrade
 apt-get -y install aptitude vim wget irssi rbenv ruby-build mutt tmux \
 pwgen elinks silversearcher-ag sysv-rc-conf golang openssh-server \
 gimp firefox libreoffice gedit vlc wireshark zsh \
-tightvncserver ntp python-pip fail2ban remmina httpie \
+tightvncserver ntp python-pip fail2ban remmina remmina-plugin-vnc httpie \
 curl guake nmap libssl-dev lynx libappindicator-dev nodejs \
 libsqlite3-dev traceroute libcurl3 dropbox bless inkscape pidgin \
 docker.io libpq-dev libpcap-dev httpie libffi-dev

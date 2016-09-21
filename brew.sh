@@ -8,8 +8,7 @@ brew install caskroom/cask/brew-cask
 
 brew install watch wget irssi rbenv ruby-build gpg-agent mutt tmux pwgen \
   elinks hub macvim pass ag rust nodejs elixir nmap duck htop hub libxml2 fortune \
-  kore go exercism httpie \
-  docker docker-machine docker-compose
+  kore go exercism httpie coreutils mysql
 
 brew cask install virtualbox google-chrome vagrant chefdk iterm2 macdown
 

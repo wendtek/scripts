@@ -6,7 +6,7 @@ gimp firefox libreoffice gedit vlc wireshark zsh \
 tightvncserver ntp python-pip fail2ban remmina remmina-plugin-vnc httpie \
 curl guake nmap libssl-dev lynx libappindicator-dev \
 libsqlite3-dev traceroute libcurl3 dropbox bless inkscape pidgin \
-libpq-dev libpcap-dev httpie libffi-dev openvpn
+libpq-dev libpcap-dev httpie libffi-dev openvpn tshark
 
 # heroku toolbelt
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh

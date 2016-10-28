@@ -6,5 +6,7 @@ apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E8
 apt-get update
 apt-cache policy docker-engine
 apt-get install -y docker-engine
+pip install --upgrade pip
+pip install docker-compose
 service docker start
 docker run hello-world

@@ -4,6 +4,9 @@
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# node version manager
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+
 brew install caskroom/cask/brew-cask
 
 brew install watch wget irssi rbenv ruby-build gpg-agent mutt tmux pwgen \
